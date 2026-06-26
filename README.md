@@ -2,6 +2,8 @@
 
 A command-line tool to fetch and display movies from The Movie Database (TMDB).
 
+> This project is based on the [TMDB CLI Tool](https://roadmap.sh/projects/tmdb-cli) challenge on roadmap.sh.
+
 ## Prerequisites
 - Python 3.7+
 - A TMDB API key — get one free at https://www.themoviedb.org/settings/api
@@ -9,7 +11,7 @@ A command-line tool to fetch and display movies from The Movie Database (TMDB).
 ## Installation
 
 1. Clone the repo and enter the directory:
-   git clone <your-repo-url>
+   git clone https://github.com/your-username/tmdb-cli
    cd tmdb-cli
 
 2. Install dependencies:
@@ -27,9 +29,9 @@ python main.py --type "upcoming"
 
 ## Movie Types
 
-| Argument   | Description        |
-|------------|--------------------|
-| popular    | Most popular movies |
+| Argument   | Description             |
+|------------|-------------------------|
+| popular    | Most popular movies     |
 | playing    | Now playing in theatres |
-| top        | Top rated of all time |
-| upcoming   | Coming soon |
+| top        | Top rated of all time   |
+| upcoming   | Coming soon             |
